@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Calculation</title>
+    <link rel="stylesheet" href="./js/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-danger">
+    <div class="container bg-white py-3 mt-5">
+      <div class="fs-1 input my-5 text-center">
+        <h1 class="font-monospace mb-4">Exam Calculation</h1>
+      </div>
+      <div class="lh-lg row text-center">
+        <div class="col-lg-8 m-auto">
+          <input
+            type="number"
+            name="bangla"
+            placeholder="Enter your Bangla mark"
+            id="bangla"
+            fdprocessedid="zxscho"
+            class="border-0 my-2 rounded-3 text-capitalize inputs placeholder-wave"
+          />
+        </div>
+        <div class="col-lg-8 m-auto">
+          <input
+            type="number"
+            name="english"
+            placeholder="Enter your english mark"
+            id="english"
+            fdprocessedid="zxscho"
+            class="border-0 my-2 rounded-3 text-capitalize inputs placeholder-wave"
+          />
+        </div>
+        <div class="col-lg-8 m-auto">
+          <input
+            type="number"
+            name="physics"
+            placeholder="Enter your physics mark"
+            id="physics"
+            fdprocessedid="zxscho"
+            class="border-0 my-2 rounded-3 text-capitalize inputs placeholder-wave"
+          />
+        </div>
+        <div class="col-lg-8 m-auto">
+          <input
+            type="number"
+            name="math"
+            placeholder="Enter your math mark"
+            id="math"
+            fdprocessedid="zxscho"
+            class="border-0 my-2 rounded-3 text-capitalize inputs placeholder-wave"
+          />
+        </div>
+        <div class="col-lg-8 m-auto rounded-3">
+          <input
+            type="button"
+            value="Pick Result"
+            id="result"
+            class="border-0 font-monospace rounded-3 text-white placeholder-wave"
+          />
+        </div>
+        <div class="col-sm-12">
+          <p class="total_n rounded-3">
+            Your total mark is =<span id="total_num">00</span> out of 400
+          </p>
+        </div>
+        <div class="col-sm-12">
+          <p class="total_n rounded-3" id="average">Your Average mark is =00</p>
+        </div>
+        <div class="col-sm-12">
+          <p class="total_n rounded-3" id="grade">Your grade is = Null</p>
+        </div>
+        <div class="col-sm-12">
+          <p class="total_n rounded-3" id="passorfail">Pass/Fail = Null</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/js/bootstrap.bundle.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
